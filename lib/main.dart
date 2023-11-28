@@ -32,7 +32,6 @@ class _NinjaCardState extends State<NinjaCard> {
           setState(() {
             ninjaLevel += 1;
           });
-          
         },
         child: Icon(Icons.add),
         backgroundColor: Colors.grey[800],
